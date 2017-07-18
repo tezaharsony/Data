@@ -22,4 +22,4 @@ app.use('/teacher', Teachers)
 app.use('/subjects', Subjects)
 app.use('/student', Students)
 app.use('/', Index)
-app.listen(3000)
+app.listen(process.env.PORT || 3000);
